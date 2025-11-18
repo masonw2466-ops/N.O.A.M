@@ -1,11 +1,47 @@
 /*
-Names:
-
+CSCY 2000 Team Project Part 1
+Team Name: Not on a Monday (N.O.A.M.)
+Members: Mason Williams, Jacob LaFerriere, Zedekai Nelson, Brian Casey
+Class: CSCY 2000 Web Development
 */
 
-/* CSS reset */
-body, header, main, section, footer, h1, h2 {
+/* CSS Reset */
+* {
     margin: 0;
     padding: 0;
-    border: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Responsive visibility (mobile-first) */
+.mobile-only {
+    display: block;
+}
+
+.tablet-desktop-only {
+    display: none;
+}
+
+/* Tablet/Desktop overrides */
+@media (min-width: 768px) {
+    .mobile-only {
+        display: none;
+    }
+    .tablet-desktop-only {
+        display: block;
+    }
+}
+
+/* Navbar customization */
+.navbar-brand {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 0.9rem;
 }

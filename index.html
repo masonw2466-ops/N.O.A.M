@@ -1,18 +1,63 @@
+<!--
+CSCY 2000 Team Project Part 1
+Team Name: Not on a Monday (N.O.A.M.)
+Members: Mason Williams, Jacob LaFerriere, Zedekai Nelson, Brian Casey
+Class: CSCY 2000 Web Development
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Webpage Title</title>
-    <!--CSS link-->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>NOAM Cybersecurity Company</title>
+  <!-- Bootstrap 4.3 CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-    <!-- Your content goes here -->
-    <h1>Welcome to My Webpage</h1>
-    <p>This is a basic paragraph in the body of the document.</p>
 
-    <!-- JS link -->
-    <script src="scripts/script.js"></script>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">NOAM Cybersecurity</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="learn.html">Learn</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolios</a></li>
+        <li class="nav-item"><a class="nav-link" href="sales.html">Sales</a></li>
+        <li class="nav-item"><a class="nav-link" href="location.html">Location</a></li>
+        <li class="nav-item"><a class="nav-link" href="informative.html">Informative</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="jumbotron text-center">
+    <h1 class="display-4">Welcome to NOAM Cybersecurity</h1>
+    <p class="lead">Protecting small businesses and individuals with trusted security solutions.</p>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+    <section>
+      <h2>Our Mission</h2>
+      <p>We provide cybersecurity services, resources, and education to help people stay safe online.</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 NOAM Cybersecurity | CSCY 2000</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <script src="scripts/script.js"></script>
 </body>
 </html>
