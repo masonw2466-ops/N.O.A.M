@@ -32,6 +32,23 @@ body {
     display: none;
 }
 
+.aboutUsGrid {
+	display: grid;
+	grid-template-columns: auto;
+	text-align: center;
+}
+
+.aboutUsGrid img {
+	width: 300px;
+	height: auto;
+    border-radius: 8px;
+}
+
+.aboutUsGrid img:hover {
+    border-radius: 8px;
+    box-shadow: 6px 6px 12px rgba(0,0,0,0.2);
+}
+
 /* Tablet/Desktop overrides */
 @media (min-width: 768px) {
     .mobile-only {
@@ -40,6 +57,23 @@ body {
     .tablet-desktop-only {
         display: block;
     }
+}
+
+.aboutUsGrid {
+	display: grid;
+	grid-template-columns: auto auto;
+	text-align: center;
+}
+
+.aboutUsGrid img {
+	width: 300px;
+	height: auto;
+    border-radius: 8px;
+}
+
+.aboutUsGrid img:hover {
+    border-radius: 8px;
+    box-shadow: 6px 6px 12px rgba(0,0,0,0.2);
 }
 
 /* Navbar customization */
