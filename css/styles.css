@@ -34,12 +34,12 @@ body {
 
 .aboutUsGrid {
 	display: grid;
-	grid-template-columns: auto;
+	grid-template-columns: 1fr;
 	text-align: center;
 }
 
 .aboutUsGrid img {
-	width: 300px;
+	width: 250px;
 	height: auto;
     border-radius: 8px;
 }
@@ -47,6 +47,19 @@ body {
 .aboutUsGrid img:hover {
     border-radius: 8px;
     box-shadow: 6px 6px 12px rgba(0,0,0,0.2);
+}
+
+.aboutUsWelcomeHeader {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1%;
+    margin: 1%;
+}
+
+.aboutUsWelcome {
+    font-size: 1em;
+    padding: 0 2%;
+    margin: 0 2%;
 }
 
 
@@ -101,23 +114,24 @@ body {
     .tablet-desktop-only {
         display: block;
     }
-}
 
-.aboutUsGrid {
-	display: grid;
-	grid-template-columns: auto auto;
-	text-align: center;
-}
+    .aboutUsGrid {
+    	display: grid;
+    	grid-template-columns: repeat(2, 1fr);
+    	text-align: center;
+    }
 
-.aboutUsGrid img {
-	width: 300px;
-	height: auto;
-    border-radius: 8px;
-}
+    .aboutUsGrid img{
+        width: 300px;
+    }
 
-.aboutUsGrid img:hover {
-    border-radius: 8px;
-    box-shadow: 6px 6px 12px rgba(0,0,0,0.2);
+    .aboutUsWelcomeHeader {
+        font-size: 2em;
+    }
+
+    .aboutUsWelcome {
+        font-size: 1.5em;
+    }
 }
 
 /* Navbar customization */
