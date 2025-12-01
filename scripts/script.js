@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link" href="learn.html">Learn</a></li>
-            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="aboutUS.html">About Us</a></li>
             <li class="nav-item"><a class="nav-link" href="portfolio-brian.html">Brian's Portfolio</a></li>
             <li class="nav-item"><a class="nav-link" href="sales.html">Sales</a></li>
             <li class="nav-item"><a class="nav-link" href="location.html">Location</a></li>
