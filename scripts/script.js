@@ -31,7 +31,6 @@ document.addEventListener("DOMContentLoaded", () => {
     <footer class="bg-dark text-white text-center py-3">
         <p>
             &copy; 2025 NOAM Cybersecurity | CSCY 2000 | 
-            <a href="portfolio-brian.html" class="text-white">Brian Casey</a>
             <a href="portfolio-mason.html" class="text-whtie">Mason Williams</a>
         </p>
     </footer>
