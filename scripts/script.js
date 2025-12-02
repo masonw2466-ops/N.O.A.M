@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <p>
             &copy; 2025 NOAM Cybersecurity | CSCY 2000 | 
             <a href="portfolio-brian.html" class="text-white">Brian Casey</a>
-            <a href="portgolio-mason.html" class="text-whtie">Mason Williams</a>
+            <a href="portfolio-mason.html" class="text-whtie">Mason Williams</a>
         </p>
     </footer>
   `;
