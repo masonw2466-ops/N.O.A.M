@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <li class="nav-item"><a class="nav-link" href="learn.html">Learn</a></li>
             <li class="nav-item"><a class="nav-link" href="aboutUS.html">About Us</a></li>
             <li class="nav-item"><a class="nav-link" href="sales.html">Sales</a></li>
-            <li class="nav-item"><a class="nav-link" href="location.html">Location</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
             <li class="nav-item"><a class="nav-link" href="informative.html">Informative</a></li>
         </ul>
     </div>
