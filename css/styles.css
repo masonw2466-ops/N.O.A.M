@@ -51,7 +51,7 @@ body {
 
 .aboutUsWelcomeHeader {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
     padding: 1%;
     margin: 1%;
 }
@@ -184,6 +184,13 @@ footer a {
 
 /* Tablet/Desktop overrides */
 @media (min-width: 768px) {
+    .aboutUsWelcomeHeader {
+        text-align: center;
+        font-size: 1.5em;
+        padding: 1%;
+        margin: 1%;
+    }
+
     .mobile-only {
         display: none;
     }
