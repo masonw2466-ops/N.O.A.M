@@ -34,6 +34,10 @@ body {
     line-height: 1.6;
 }
 
+.questions {
+    width: 70%;
+}
+
 /* Responsive visibility (mobile-first) */
 .mobile-only {
     display: block;
@@ -235,7 +239,14 @@ table, th, td {
     	grid-template-columns: repeat(3, 1fr);
     	text-align: center;
     }
+
+    .questions {
+        width: 30%;
+    }
 }
+
+
+
 
 /* Navbar customization */
 .navbar-brand {
@@ -245,3 +256,5 @@ table, th, td {
 footer {
     font-size: 0.9rem;
 }
+
+
