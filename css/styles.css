@@ -122,6 +122,10 @@ footer a {
   background-color: #999999;
 }
 
+table, th, td {
+	border: 1px solid black;
+}
+
 /* CSS for learn page */
 /*center text on cards, white with blk shadow */
 .centeredcard {
