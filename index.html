@@ -49,8 +49,9 @@ Class: CSCY 2000 Web Development
       <h2>Our Mission</h2>
       <p>We provide cybersecurity services, resources, and education to help people stay safe online.</p>
     </section>
-    <section>
+    <section class="container">
       <form class="signup-form">
+        <!--Form that gives options to sign up for newsletter/consult using checkbox and email or phone input-->
         <fieldset>
             <label for="email">Sign up for our newsletter or request a consultation:</label><br>
             <input type="checkbox" id="consultation" name="consultation" value="yes"> Request a Consultation
@@ -61,6 +62,7 @@ Class: CSCY 2000 Web Development
             <input type="tel" id="telephone" name="telephone" placeholder="Enter your phone number">
             <button type="submit">Submit</button><br><br>
         </fieldset>
+        <!--Textarea for questions/comments-->
         <fieldset>
           <label for="questsions">Any questions or comments?</label><br>
           <textarea id="questions" name="questions" rows="4" cols="40" placeholder="Enter your questions or comments here..."></textarea>
