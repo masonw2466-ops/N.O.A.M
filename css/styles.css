@@ -36,6 +36,10 @@ body {
     line-height: 1.6;
 }
 
+.display-4 {
+    font-size: 2em;
+}
+
 /* Responsive visibility (mobile-first) */
 .mobile-only {
     display: block;
@@ -206,6 +210,10 @@ table, th, td {
         font-size: 1.5em;
         padding: 1%;
         margin: 1%;
+    }
+
+    .display-4 {
+        font-size: 3.5em;
     }
 
     .mobile-only {
