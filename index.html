@@ -48,17 +48,48 @@ Class: CSCY 2000 Web Development
     <p class="lead">Protecting small businesses and individuals with trusted security solutions.</p>
   </header>
 
-  <!-- Main Content -->
+    <!-- Main Content -->
   <main class="container">
     <section>
       <h2>Our Mission</h2>
       <p>We provide cybersecurity services, resources, and education to help people stay safe online.</p>
     </section>
+
+    <!-- New Video Section -->
+    <section class="my-5">
+      <h2 class="text-center">Why Cybersecurity Is Important</h2>
+      <br>
+      <p class="text-center">
+        In this short video, a hacker explains why cybersecurity matters and how it impacts everyone.
+      </p>
+      <br>
+
+      <!-- Tablet/Desktop: Embedded Video -->
+      <div class="tablet-desktop-only text-center">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item"
+            src="https://www.youtube.com/embed/18D_zpEkDxc?mute=1&controls=1"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Mobile: Link to Video -->
+      <div class="mobile-only text-center">
+        <p>
+          <a href="https://www.youtube.com/shorts/18D_zpEkDxc" target="_blank">
+            Watch: Hacker Explains Why Cyber Security Is Important
+          </a>
+        </p>
+      </div>
+    </section>
+
     <section class="container">
       <form class="signup-form">
         <!--Form that gives options to sign up for newsletter/consult using checkbox and email or phone input-->
         <fieldset>
-            <label for="email">Sign up for our newsletter or request a consultation:</label><br>
+            <br>
+            <label for="email"><h2>Sign up for our newsletter or request a consultation:</h2></label><br><br>
             <input type="checkbox" id="consultation" name="consultation" value="yes"> Request a Consultation
             <input type="checkbox">Newsletter Email:<br>
             <input type="email" id="email" name="email" placeholder="Enter your email" required>
@@ -76,6 +107,7 @@ Class: CSCY 2000 Web Development
       </form>
     </section>
   </main>
+
 
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-3">
