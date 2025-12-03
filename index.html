@@ -49,9 +49,21 @@ Class: CSCY 2000 Web Development
     </section>
     <section>
       <form class="signup-form">
-        <label for="email">Sign up for our newsletter:</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
-        <button type="submit">Subscribe</button>
+        <fieldset>
+            <label for="email">Sign up for our newsletter or request a consultation:</label>
+            <input type="checkbox" id="consultation" name="consultation" value="yes"> Request a Consultation
+            <input type="checkbox">Newsletter Email:
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Submit</button>
+            <label for="telephone">Phone Number (for consultation requests):</label>
+            <input type="tel" id="telephone" name="telephone" placeholder="Enter your phone number">
+            <button type="submit">Submit</button>
+        </fieldset>
+        <fieldset>
+          <label for="questsions">Any questions or comments?</label>
+          <textarea id="questions" name="questions" rows="4" cols="40" placeholder="Enter your questions or comments here..."></textarea>
+          <button type="submit">Submit</button>
+        </fieldset>  
       </form>
     </section>
   </main>
