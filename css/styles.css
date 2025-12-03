@@ -20,6 +20,8 @@ green - #31C950
 /* General Styles */
 .logoContainer{
     background-color: #DADAD9;
+    position: sticky;
+    top: 0;
 }
 
 .logoImage{
@@ -36,6 +38,13 @@ body {
 
 .questions {
     width: 70%;
+}
+
+.poiret-one-regular {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
 }
 
 /* Responsive visibility (mobile-first) */
@@ -208,6 +217,13 @@ table, th, td {
         font-size: 1.5em;
         padding: 1%;
         margin: 1%;
+    }
+
+    .poiret-one-regular {
+        font-family: "Poiret One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3.5em;
     }
 
     .mobile-only {
