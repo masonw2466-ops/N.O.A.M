@@ -135,10 +135,6 @@ footer a {
   background-color: #999999;
 }
 
-table, th, td {
-	border: 1px solid black;
-}
-
 /* CSS for learn page */
 /*center text on cards, white with blk shadow */
 .centeredcard {
@@ -259,8 +255,14 @@ table, th, td {
     .questions {
         width: 30%;
     }
+	
+	table, th, td {
+	border: 1px solid black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 50%;
 }
-
+}
 
 
 
