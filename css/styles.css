@@ -18,6 +18,17 @@ green - #31C950
 }
 
 /* General Styles */
+.logoContainer{
+    background-color: #DADAD9;
+}
+
+.logoImage{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
