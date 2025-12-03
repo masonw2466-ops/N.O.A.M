@@ -20,6 +20,8 @@ green - #31C950
 /* General Styles */
 .logoContainer{
     background-color: #DADAD9;
+    position: sticky;
+    top: 0;
 }
 
 .logoImage{
