@@ -19,6 +19,18 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
   }
 
+      // Zedekai's footer (New)
+  if (document.getElementById("footer-placeholder2")) {
+    document.getElementById("footer-placeholder2").innerHTML = `
+      <footer class="bg-dark text-white text-center py-3">
+        <p>
+          &copy; 2025 NOAM Cybersecurity | CSCY 2000 | 
+          <a href="portfolio-Zedekai.html" class="text-white">Zedekai Nelson</a>
+        </p>
+      </footer>
+    `;
+  }
+
   // Brian's footer (new section)
   if (document.getElementById("footer-placeholder1")) {
     document.getElementById("footer-placeholder1").innerHTML = `
@@ -31,3 +43,4 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
   }
 });
+
