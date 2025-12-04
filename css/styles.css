@@ -47,6 +47,11 @@ body {
   font-size: 2em;
 }
 
+.mason {
+  width: 80%;
+  height: auto;
+}
+
 /* Responsive visibility (mobile-first) */
 .mobile-only {
     display: block;
@@ -254,6 +259,11 @@ footer a {
 
     .questions {
         width: 30%;
+    }
+
+    .mason {
+      width: 30%;
+      height: auto;
     }
 	
 	table, th, td {
